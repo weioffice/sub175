@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header('Access-Control-Allow-Origin:*');>    
+         
+  <head>
+      
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Bodymovin Demo</title>
+  <Access-Control-Allow-Origin>
+  <!--  Styles  -->
+  <div id="lottie_animation" style="padding-top: 40%" </div>
+  <link rel="stylesheet" type="text/css" href="wrapping.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>  
+
+   
+</head>
+<body>
+
+<div 
+  id="message"
+  style="display: none">
+  <div 
+    v-for="message in messageData"
+    :id="message.id">{{ message.data }}</div>
+</div>
+<!-- <div id="isOpen" style="display: none">{{isOpen}}
+</div>
+<div id="links" style="display: none">{{links}}
+</div>
+<div id="is_active" style="display: none">{{is_active}}
+</div>
+<div id="new_url" style="display: none">{{new_url}}
+</div>
+<div id="cover" style="display: none">{{cover}}
+</div>
+<div id="is_show_cover" style="display: none">{{is_show_cover}}
+</div>
+<div id="animation_file" style="display: none">{{animation_file}}
+</div> -->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+<script src="myJS.js"></script>
+
+<script src="bodymovin.js"></script>
+<!-- <script type="text/javascript" src="myJS.js"></script> -->
+</body>
+</html>
