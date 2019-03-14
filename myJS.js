@@ -1,5 +1,5 @@
 
-// changed a2 and b2 with background uuid
+// changed a2 ＆ b2 with background uuid 
 var a1 = "https://uniquetoone.com/index/index/"
 var a2 = "081d50fe-069f-46e8-9111-e41d0f88e1d5"
 
